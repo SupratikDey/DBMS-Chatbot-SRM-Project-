@@ -10,7 +10,7 @@ const Concept = require('../models/Concept');
 const router = express.Router();
 const upload = multer({ dest: 'uploads/' });
 
-const GROQ_API_KEY = 'gsk_8tCEB632JJARPISdyb3FYI2j0WawlMpTxVA0XgbJgiFoJ'; // Replace with your Groq API key
+const GROQ_API_KEY = 'gsk_8tCEB6TNRiWGdyb3FYI2j0WawlMpTxVA0XgbJgiFoJ';
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 
 router.post('/ask', async (req, res) => {
